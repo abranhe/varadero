@@ -1,0 +1,44 @@
+{
+	"name": "varadero",
+	"version": "1.0.0",
+	"description": "Get pictures of Varadero 🏝",
+	"license": "MIT",
+	"repository": "abranhe/varadero",
+	"author": {
+		"name": "Abraham Hernandez",
+		"email": "abraham@abranhe.com",
+		"url": "abranhe.com"
+	},
+	"bin": {
+		"varadero": "cli.js"
+	},
+	"bugs": {
+		"url": "https://github.com/abranhe/varadero/issues"
+	},
+	"homepage": "https://projects.abranhe.com/varadero",
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"cli.js",
+		"picts"
+	],
+	"keywords": [
+		"beach",
+		"varadero",
+		"picture",
+		"cli",
+		"cuba"
+	],
+	"dependencies": {
+		"meow": "^5.0.0",
+		"opn": "^5.4.0",
+		"random-item": "^1.0.0",
+		"@abranhe/feedback": "^1.1.1"
+	},
+	"devDependencies": {
+		"ava": "*",
+		"execa": "^0.6.3",
+		"xo": "*"
+	}
+}
